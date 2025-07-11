@@ -1,213 +1,57 @@
 {
   "personalInfo": {
-    "name": "Michael Leib",
+    "name": "Max Mustermann",
     "title": "Full Stack Entwickler",
-    "email": "your.email@example.com",
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "github": "https://github.com/yourusername",
-    "location": "Ihr Standort"
+    "email": "example@email.com",
+    "linkedin": "https://linkedin.com/in/exampleprofile",
+    "github": "https://github.com/exampleuser",
+    "location": "Deutschland"
   },
-  "about": "Seit ich Flash im Alter von 14 Jahren entdeckt habe, bin ich leidenschaftlich daran interessiert, Websites zu entwerfen und zu entwickeln. 2017 habe ich meinen Traum zur Karriere gemacht und arbeite als Full Stack Entwickler mit starkem Fokus auf Frontend-Entwicklung. Ausgezeichnete Benutzererfahrung, moderne Technologien und sauberes, wartbares UI-Design sind mir besonders wichtig. Ich liebe einfach sanfte, intuitive Looks und Feels.",
+  "about": "Seit meiner Jugend bin ich begeistert von der Entwicklung und Gestaltung von Websites. Seit 2017 arbeite ich als Full Stack Entwickler mit Fokus auf Frontend. Moderne Technologien und exzellente Benutzererfahrung sind mir besonders wichtig.",
   "skills": {
     "frontend": [
-      { "name": "Angular", "level": 9, "category": "frontend", "years": 3 },
-      { "name": "React", "level": 9, "category": "frontend", "years": 3 },
-      { "name": "TypeScript", "level": 9, "category": "frontend" },
-      { "name": "JavaScript", "level": 9, "category": "frontend" },
-      { "name": "HTML", "level": 9, "category": "frontend" },
-      { "name": "CSS", "level": 9, "category": "frontend" },
-      { "name": "Sass", "level": 8, "category": "frontend" },
-      { "name": "RxJS", "level": 8, "category": "frontend" },
-      { "name": "TailwindCSS", "level": 8, "category": "frontend" }
+      { "name": "Framework", "level": 9, "category": "frontend", "years": 3 }
     ],
     "backend": [
-      { "name": "C# & .NET", "level": 9, "category": "backend", "years": 6 },
       {
-        "name": "Java & Spring Boot",
+        "name": "Language or Framework",
+        "level": 9,
+        "category": "backend",
+        "years": 6
+      },
+      {
+        "name": "Language or Framework",
         "level": 8,
         "category": "backend",
         "years": 2
-      },
-      { "name": "SQL", "level": 9, "category": "backend", "years": 6 }
+      }
     ],
     "general": [
       {
-        "name": "KI-Tools (Cursor, Claude, MCP, RAG)",
+        "name": "Skill or Tool",
         "level": 8,
         "category": "general"
-      },
-      { "name": "DevOps", "level": 7, "category": "general" },
-      { "name": "Agile (Scrum & Kanban)", "level": 8, "category": "general" },
-      { "name": "Cloud Services", "level": 8, "category": "general" },
-      { "name": "Cloud Architektur (XaaS)", "level": 8, "category": "general" },
-      { "name": "Git", "level": 9, "category": "general" },
-      { "name": "Software Architektur", "level": 8, "category": "general" },
-      { "name": "REST API Design", "level": 9, "category": "general" },
-      {
-        "name": "Testgetriebene Entwicklung",
-        "level": 7,
-        "category": "general"
-      },
-      { "name": "Domain-Driven Design", "level": 7, "category": "general" },
-      { "name": "Microservices", "level": 7, "category": "general" }
+      }
     ]
   },
   "experience": [
     {
-      "company": "Softwareentwicklungsunternehmen für die Versicherungsbranche (Aktueller Arbeitgeber)",
-      "position": "Full Stack Entwickler (Frontend-Fokus, Co-Lead)",
-      "startDate": "Sept 2022",
-
-      "description": [
-        "Entwicklung und Wartung einer Webplattform zur Verwaltung von Rückversicherungsverträgen mit Angular, TypeScript, RxJS und Angular Material Design",
-        "Backend-Entwicklung mit .NET, C# und SQL",
-        "Technische Konzeption, Architekturentscheidungen und Modernisierung bestehender Komponenten"
-      ],
-      "technologies": [
-        "Angular",
-        "TypeScript",
-        "RxJS",
-        "Angular Material",
-        ".NET",
-        "C#",
-        "SQL"
-      ]
-    },
-    {
-      "company": "Beratungsunternehmen (Ehemaliger Arbeitgeber)",
-      "position": "Full Stack Entwickler (Lead), IT-Berater",
-      "startDate": "Mai 2019",
-      "endDate": "Juni 2022",
-      "description": [
-        "Entwicklung von cloud-nativen SPAs mit React, C# .NET, Azure und SQL",
-        "Kundenberatung & technische Umsetzung von Cloud-Migration (XaaS)",
-        "Planung und Entwicklung komplexer Infrastrukturen und Unternehmensanwendungen"
-      ],
-      "technologies": [
-        "React",
-        "C#",
-        ".NET",
-        "Azure",
-        "SQL",
-        "Cloud Architektur"
-      ]
-    },
-    {
-      "company": "Ein großes Unternehmen (Ehemaliger Arbeitgeber)",
-      "position": "Java Entwickler",
-      "startDate": "Juni 2017",
-      "endDate": "Dezember 2018",
-      "description": [
-        "Entwicklung und Implementierung einer automatisierten, verteilten Testumgebung",
-        "Java Server-Client-Infrastruktur über REST APIs"
-      ],
-      "technologies": ["Java", "REST APIs", "Verteilte Systeme"]
-    },
-    {
-      "company": "Ein großes Unternehmen (Ehemaliger Arbeitgeber)",
-      "position": "Software Tester (QA)",
-      "startDate": "März 2012",
-      "endDate": "März 2018",
-      "description": [
-        "Entwicklung von Testszenarien und Testspezifikationen",
-        "Durchführung manueller Software-Tests und Erstellung automatisierter Testszenarien",
-        "Dokumentation und Qualitätssicherung"
-      ],
-      "technologies": ["QA", "Test Automatisierung", "Dokumentation"]
-    },
-    {
-      "company": "Ein großes Unternehmen (Ehemaliger Arbeitgeber)",
-      "position": "Netzwerkadministrator",
-      "startDate": "Oktober 2009",
-      "endDate": "März 2012",
-      "description": [
-        "Administration und Konfiguration von Server-Client-Netzwerkinfrastrukturen",
-        "Windows Server und CISCO Komponenten-Management"
-      ],
-      "technologies": ["Windows Server", "CISCO", "Netzwerkinfrastruktur"]
+      "company": "Company Name",
+      "position": "Position",
+      "startDate": "Start Date",
+      "description": ["Description"],
+      "technologies": ["Technology"]
     }
   ],
   "projects": [
     {
-      "name": "Webportal für Rückversicherungsvertragsverwaltung",
-      "company": "Softwareentwicklungsunternehmen für die Versicherungsbranche (Aktueller Arbeitgeber)",
-      "period": "2022 - Heute",
-      "description": "Umfassendes Webportal zur Verwaltung von Rückversicherungsverträgen mit modernem Angular Frontend und .NET Backend",
-      "technologies": ["Angular", ".NET", "SQL", "REST APIs"],
-      "role": "UI/UX Design, Frontend Architektur, REST API Design",
-      "highlights": [
-        "Datenbankdesign",
-        "Interface-Entwicklung",
-        "Fehleranalyse",
-        "Code-Wartung"
-      ]
-    },
-    {
-      "name": "Feature-Entwicklung / Wartung Rückversicherungssoftware",
-      "company": "Softwareentwicklungsunternehmen für die Versicherungsbranche (Aktueller Arbeitgeber)",
-      "period": "2022 - 2023",
-      "description": "Feature-Entwicklung und Wartung für Rückversicherungssoftware-Plattform",
-      "technologies": ["WPF", ".NET", "SQL"],
-      "role": "Frontend & Backend Entwicklung"
-    },
-    {
-      "name": "HR-Jobportal & Onboarding-Plattform",
-      "company": "Beratungsunternehmen für die Versicherungsbranche (Ehemaliger Arbeitgeber)",
-      "period": "2021 - 2022",
-      "description": "Vollständige HR-Plattform für Jobmanagement und Mitarbeiter-Onboarding",
-      "technologies": [
-        "React",
-        "TypeScript",
-        "AntD",
-        "CI/CD",
-        "Cloud Infrastruktur"
-      ],
-      "role": "Frontend Lead",
-      "highlights": [
-        "Backend-Entwicklung",
-        "CI/CD Setup",
-        "Cloud Infrastruktur (XaaS)"
-      ]
-    },
-    {
-      "name": "Compliance-Tools für Microsoft Teams",
-      "company": "Beratungsunternehmen für die Versicherungsbranche (Ehemaliger Arbeitgeber)",
-      "period": "2020 - 2021",
-      "description": "Compliance-Tools und Beratung für Microsoft Teams Implementierung",
-      "technologies": [
-        ".NET",
-        "React",
-        "Microsoft Teams",
-        "Cloud Infrastruktur"
-      ],
-      "role": "Full Stack Development Lead",
-      "highlights": [
-        "Requirements Engineering",
-        "Beratung",
-        "Cloud Infrastruktur (XaaS)"
-      ]
-    },
-    {
-      "name": "Web-App für Datenaggregation",
-      "company": "Beratungsunternehmen für die Versicherungsbranche (Ehemaliger Arbeitgeber)",
-      "period": "2020",
-      "description": "Datenaggregations-Plattform für HR, Azure AD und Teams Integration",
-      "technologies": [".NET", "React", "Azure AD", "Microsoft Teams"],
-      "role": "Full Stack Development Lead",
-      "highlights": [
-        "Matching-Logik",
-        "Schnittstellen zu Drittsystemen",
-        "Cloud Infrastruktur (XaaS)"
-      ]
-    },
-    {
-      "name": "Azure SSO & MFA Rollout, Teams Rollout",
-      "company": "Beratungsunternehmen für die Versicherungsbranche (Ehemaliger Arbeitgeber)",
-      "period": "2019 - 2020",
-      "description": "Unternehmensweite Azure Single Sign-On und Multi-Faktor-Authentifizierung Implementierung",
-      "technologies": ["Azure", "Identity Management", "Microsoft Teams"],
-      "role": "Identity Management Spezialist",
-      "highlights": ["Azure Proxy", "Cloud Infrastruktur (XaaS)"]
+      "name": "Project Name",
+      "company": "Company Name",
+      "period": "Period",
+      "description": "Description",
+      "technologies": ["Technology"],
+      "role": "Role",
+      "highlights": ["Highlight", "Highlight", "Highlight"]
     }
   ]
 }
