@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Angular build cache
+.angular/cache/
+
+# Build output
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Favicon PNG (optional, but keep SVG and ICO for favicon support)
+# src/favicon-32x32.png 

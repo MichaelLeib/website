@@ -1,0 +1,64 @@
+.language-switcher {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 4px;
+  gap: 2px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+  }
+}
+
+.lang-button {
+  padding: 0.5rem 0.75rem;
+  border: none;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 40px;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+  }
+
+  &.active {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    box-shadow: 0 4px 16px rgba(79, 172, 254, 0.3);
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(79, 172, 254, 0.4);
+    }
+  }
+
+  &:focus-visible {
+    outline: 2px solid #4facfe;
+    outline-offset: 2px;
+  }
+}
+
+// Responsive Design
+@media (max-width: 480px) {
+  .language-switcher {
+    padding: 3px;
+    gap: 1px;
+  }
+
+  .lang-button {
+    padding: 0.375rem 0.6rem;
+    font-size: 0.8rem;
+    min-width: 36px;
+  }
+}
