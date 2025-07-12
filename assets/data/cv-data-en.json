@@ -1,65 +1,213 @@
 {
   "personalInfo": {
-    "name": "John Doe",
-    "title": "Full Stack Developer",
-    "email": "john.doe@example.com",
-    "linkedin": "https://linkedin.com/in/john-doe",
-    "github": "https://github.com/john-doe",
-    "location": "Planet Earth, probably"
+    "name": "Michael Leib",
+    "title": "Full Stack Developer | AI Entusiast",
+    "email": "hire-michael.leib@proton.me",
+    "linkedin": "https://www.linkedin.com/in/michael-l-b434a9207/",
+    "github": "https://github.com/MichaelLeib",
+    "location": "Berlin, Germany"
   },
-  "about": "About you",
+  "about": "Ever since I discovered Flash at the age of 14, I have been passionate about designing and developing websites. In 2017, I turned my dream into a career, working as a full stack developer with a strong focus on the frontend. Excellent user experience, modern technologies, and clean, maintainable UI design are particularly important to me. I'm just in love with smooth, intuitive looks and feels.",
   "skills": {
     "frontend": [
-      { "name": "Framework", "level": 9, "category": "frontend", "years": 3 }
+      { "name": "Angular", "level": 9, "category": "frontend", "years": 3 },
+      { "name": "React", "level": 9, "category": "frontend", "years": 3 },
+      { "name": "TypeScript", "level": 9, "category": "frontend" },
+      { "name": "JavaScript", "level": 9, "category": "frontend" },
+      { "name": "HTML", "level": 9, "category": "frontend" },
+      { "name": "CSS", "level": 9, "category": "frontend" },
+      { "name": "Sass", "level": 8, "category": "frontend" },
+      { "name": "RxJS", "level": 8, "category": "frontend" },
+      { "name": "TailwindCSS", "level": 8, "category": "frontend" }
     ],
     "backend": [
+      { "name": "C# & .NET", "level": 9, "category": "backend", "years": 6 },
       {
-        "name": "Language or Framework",
-        "level": 9,
-        "category": "backend",
-        "years": 6
-      },
-      {
-        "name": "Language or Framework",
+        "name": "Java & Spring Boot",
         "level": 8,
         "category": "backend",
         "years": 2
-      }
+      },
+      { "name": "SQL", "level": 9, "category": "backend", "years": 6 }
     ],
     "general": [
       {
-        "name": "Skill or Tool",
+        "name": "AI-Tools (Cursor, Claude, MCP, RAG)",
         "level": 8,
         "category": "general"
-      }
+      },
+      { "name": "DevOps", "level": 7, "category": "general" },
+      { "name": "Agile (Scrum & Kanban)", "level": 8, "category": "general" },
+      { "name": "Cloud Services", "level": 8, "category": "general" },
+      {
+        "name": "Cloud Architecture (XaaS)",
+        "level": 8,
+        "category": "general"
+      },
+      { "name": "Git", "level": 9, "category": "general" },
+      { "name": "Software Architecture", "level": 8, "category": "general" },
+      { "name": "REST API Design", "level": 9, "category": "general" },
+      { "name": "Test-Driven Development", "level": 7, "category": "general" },
+      { "name": "Domain-Driven Design", "level": 7, "category": "general" },
+      { "name": "Microservices", "level": 7, "category": "general" }
     ]
   },
   "experience": [
     {
-      "company": "Company Name",
-      "position": "Position",
-      "startDate": "Start Date",
-      "description": ["Description"],
-      "technologies": ["Technology"]
+      "company": "Software Development Company for Insurance Industry (Current Employer)",
+      "position": "Full Stack Developer (Frontend Focus, Co-Lead)",
+      "startDate": "Sept 2022",
+
+      "description": [
+        "Development and maintenance of a web platform for managing reinsurance contracts using Angular, TypeScript, RxJS, and Angular Material Design",
+        "Backend development with .NET, C#, and SQL",
+        "Technical conception, architecture decisions, and modernization of existing components"
+      ],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "Angular Material",
+        ".NET",
+        "C#",
+        "SQL"
+      ]
     },
     {
-      "company": "Company Name",
-      "position": "Position",
-      "startDate": "Start Date",
-      "endDate": "End Date",
-      "description": ["Description"],
-      "technologies": ["Technology"]
+      "company": "Consulting Company (Former Employer)",
+      "position": "Full Stack Developer (Lead), IT-Consultant",
+      "startDate": "May 2019",
+      "endDate": "June 2022",
+      "description": [
+        "Development of cloud-native SPAs using React, C# .NET, Azure, and SQL",
+        "Customer consulting & technical implementation of cloud migration (XaaS)",
+        "Planning and development of complex infrastructures and enterprise applications"
+      ],
+      "technologies": [
+        "React",
+        "C#",
+        ".NET",
+        "Azure",
+        "SQL",
+        "Cloud Architecture"
+      ]
+    },
+    {
+      "company": "A big company (Former Employer)",
+      "position": "Java Developer",
+      "startDate": "June 2017",
+      "endDate": "December 2018",
+      "description": [
+        "Development and implementation of an automated, distributed test environment",
+        "Java server-client infrastructure via REST APIs"
+      ],
+      "technologies": ["Java", "REST APIs", "Distributed Systems"]
+    },
+    {
+      "company": "A big company (Former Employer)",
+      "position": "Software Tester (QA)",
+      "startDate": "March 2012",
+      "endDate": "March 2018",
+      "description": [
+        "Developing test scenarios and test specifications",
+        "Carrying out manual software tests and creating automated test scenarios",
+        "Documentation and quality assurance"
+      ],
+      "technologies": ["QA", "Test Automation", "Documentation"]
+    },
+    {
+      "company": "A big company (Former Employer)",
+      "position": "Network Administrator",
+      "startDate": "October 2009",
+      "endDate": "March 2012",
+      "description": [
+        "Administration and configuration of server-client network infrastructures",
+        "Windows Server and CISCO components management"
+      ],
+      "technologies": ["Windows Server", "CISCO", "Network Infrastructure"]
     }
   ],
   "projects": [
     {
-      "name": "Project Name",
-      "company": "Company Name",
-      "period": "Period",
-      "description": "Description",
-      "technologies": ["Technology"],
-      "role": "Role",
-      "highlights": ["Highlight", "Highlight", "Highlight"]
+      "name": "Web portal for reinsurance contract management",
+      "company": "Software Development Company for Insurance Industry (Current Employer)",
+      "period": "2022 - Today",
+      "description": "Comprehensive web portal for managing reinsurance contracts with modern Angular frontend and .NET backend",
+      "technologies": ["Angular", ".NET", "SQL", "REST APIs"],
+      "role": "UI/UX Design, Frontend Architecture, REST API Design",
+      "highlights": [
+        "Database design",
+        "Interface development",
+        "Error analysis",
+        "Code maintenance"
+      ]
+    },
+    {
+      "name": "Feature Development / Maintenance Reinsurance Software",
+      "company": "Software Development Company for Insurance Industry (Current Employer)",
+      "period": "2022 - 2023",
+      "description": "Feature development and maintenance for reinsurance software platform",
+      "technologies": ["WPF", ".NET", "SQL"],
+      "role": "Frontend & Backend Development"
+    },
+    {
+      "name": "HR-Jobportal & Onboarding-Platform",
+      "company": "Consulting Company for Insurance Industry (Former Employer)",
+      "period": "2021 - 2022",
+      "description": "Complete HR platform for job management and employee onboarding",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "AntD",
+        "CI/CD",
+        "Cloud Infrastructure"
+      ],
+      "role": "Frontend Lead",
+      "highlights": [
+        "Backend development",
+        "CI/CD setup",
+        "Cloud Infrastructure (XaaS)"
+      ]
+    },
+    {
+      "name": "Compliance-Tools for Microsoft Teams",
+      "company": "Consulting Company for Insurance Industry (Former Employer)",
+      "period": "2020 - 2021",
+      "description": "Compliance tools and consulting for Microsoft Teams implementation",
+      "technologies": [
+        ".NET",
+        "React",
+        "Microsoft Teams",
+        "Cloud Infrastructure"
+      ],
+      "role": "Full Stack Development Lead",
+      "highlights": [
+        "Requirements Engineering",
+        "Consulting",
+        "Cloud Infrastructure (XaaS)"
+      ]
+    },
+    {
+      "name": "Web-App for data aggregation",
+      "company": "Consulting Company for Insurance Industry (Former Employer)",
+      "period": "2020",
+      "description": "Data aggregation platform for HR, Azure AD, and Teams integration",
+      "technologies": [".NET", "React", "Azure AD", "Microsoft Teams"],
+      "role": "Full Stack Development Lead",
+      "highlights": [
+        "Matching logic",
+        "3rd party system interfaces",
+        "Cloud Infrastructure (XaaS)"
+      ]
+    },
+    {
+      "name": "Azure SSO & MFA Rollout, Teams Rollout",
+      "company": "Consulting Company for Insurance Industry (Former Employer)",
+      "period": "2019 - 2020",
+      "description": "Enterprise-wide Azure Single Sign-On and Multi-Factor Authentication implementation",
+      "technologies": ["Azure", "Identity Management", "Microsoft Teams"],
+      "role": "Identity Management Specialist",
+      "highlights": ["Azure Proxy", "Cloud Infrastructure (XaaS)"]
     }
   ]
 }
