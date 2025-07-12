@@ -1,5 +1,6 @@
 import { CommonModule } from "@angular/common";
 import { Component } from "@angular/core";
+import { CVData } from "src/app/models/cv.model";
 import { AboutSectionComponent } from "./components/about-section.component";
 import { ContactSectionComponent } from "./components/contact-section.component";
 import { ExperienceSectionComponent } from "./components/experience-section.component";
@@ -7,6 +8,7 @@ import { LanguageSwitcherComponent } from "./components/language-switcher.compon
 import { ProjectsSectionComponent } from "./components/projects-section.component";
 import { SkillsSectionComponent } from "./components/skills-section.component";
 import { UiLabels } from "./models/ui-labels.interface";
+import { CvDataService } from "./services/cv-data.service";
 import { UiLabelsService } from "./services/ui-labels.service";
 
 @Component({
@@ -67,8 +69,10 @@ import { UiLabelsService } from "./services/ui-labels.service";
           class="hero"
         >
           <div class="hero-content">
-            <h1 class="hero-title">Michael Leib</h1>
-            <h2 class="hero-subtitle">Full Stack Developer</h2>
+            <h1 class="hero-title">{{ cvData.personalInfo.name }}</h1>
+            <h2 class="hero-subtitle">
+              {{ cvData.personalInfo.title }}
+            </h2>
             <p class="hero-description">{{ labels.hero.description }}</p>
             <div class="hero-actions">
               <a
@@ -168,11 +172,22 @@ export class AppComponent {
     },
   };
 
-  constructor(private uiLabelsService: UiLabelsService) {
+  cvData!: CVData;
+
+  constructor(
+    private uiLabelsService: UiLabelsService,
+    private cvDataService: CvDataService
+  ) {
     // Subscribe to labels and update the property directly
     this.uiLabelsService.getLabels().subscribe((labels) => {
       if (labels) {
         this.labels = labels;
+      }
+    });
+
+    this.cvDataService.getCVData().subscribe((cvData) => {
+      if (cvData) {
+        this.cvData = cvData;
       }
     });
   }
