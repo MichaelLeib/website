@@ -1,0 +1,65 @@
+{
+  "personalInfo": {
+    "name": "John Doe",
+    "title": "Full Stack Developer",
+    "email": "john.doe@example.com",
+    "linkedin": "https://linkedin.com/in/john-doe",
+    "github": "https://github.com/john-doe",
+    "location": "Planet Earth, probably"
+  },
+  "about": "About you",
+  "skills": {
+    "frontend": [
+      { "name": "Framework", "level": 9, "category": "frontend", "years": 3 }
+    ],
+    "backend": [
+      {
+        "name": "Language or Framework",
+        "level": 9,
+        "category": "backend",
+        "years": 6
+      },
+      {
+        "name": "Language or Framework",
+        "level": 8,
+        "category": "backend",
+        "years": 2
+      }
+    ],
+    "general": [
+      {
+        "name": "Skill or Tool",
+        "level": 8,
+        "category": "general"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Company Name",
+      "position": "Position",
+      "startDate": "Start Date",
+      "description": ["Description"],
+      "technologies": ["Technology"]
+    },
+    {
+      "company": "Company Name",
+      "position": "Position",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "description": ["Description"],
+      "technologies": ["Technology"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Name",
+      "company": "Company Name",
+      "period": "Period",
+      "description": "Description",
+      "technologies": ["Technology"],
+      "role": "Role",
+      "highlights": ["Highlight", "Highlight", "Highlight"]
+    }
+  ]
+}

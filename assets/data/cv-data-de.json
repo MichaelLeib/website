@@ -1,0 +1,57 @@
+{
+  "personalInfo": {
+    "name": "Max Mustermann",
+    "title": "Full Stack Entwickler",
+    "email": "example@email.com",
+    "linkedin": "https://linkedin.com/in/exampleprofile",
+    "github": "https://github.com/exampleuser",
+    "location": "Deutschland"
+  },
+  "about": "Seit meiner Jugend bin ich begeistert von der Entwicklung und Gestaltung von Websites. Seit 2017 arbeite ich als Full Stack Entwickler mit Fokus auf Frontend. Moderne Technologien und exzellente Benutzererfahrung sind mir besonders wichtig.",
+  "skills": {
+    "frontend": [
+      { "name": "Framework", "level": 9, "category": "frontend", "years": 3 }
+    ],
+    "backend": [
+      {
+        "name": "Language or Framework",
+        "level": 9,
+        "category": "backend",
+        "years": 6
+      },
+      {
+        "name": "Language or Framework",
+        "level": 8,
+        "category": "backend",
+        "years": 2
+      }
+    ],
+    "general": [
+      {
+        "name": "Skill or Tool",
+        "level": 8,
+        "category": "general"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Company Name",
+      "position": "Position",
+      "startDate": "Start Date",
+      "description": ["Description"],
+      "technologies": ["Technology"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Name",
+      "company": "Company Name",
+      "period": "Period",
+      "description": "Description",
+      "technologies": ["Technology"],
+      "role": "Role",
+      "highlights": ["Highlight", "Highlight", "Highlight"]
+    }
+  ]
+}

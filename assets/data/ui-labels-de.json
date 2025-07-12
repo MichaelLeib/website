@@ -1,0 +1,51 @@
+{
+  "navigation": {
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "experience": "Erfahrung",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "buttons": {
+    "getInTouch": "Kontakt aufnehmen",
+    "viewProjects": "Projekte ansehen"
+  },
+  "hero": {
+    "description": "Beschreibung"
+  },
+  "sections": {
+    "aboutMe": "Über mich",
+    "skillsExpertise": "Fähigkeiten & Expertise",
+    "skillsSubtitle": "Eine umfassende Übersicht meiner technischen Fähigkeiten und Expertise-Level",
+    "professionalExperience": "Berufserfahrung",
+    "experienceSubtitle": "Mein beruflicher Werdegang durch verschiedene Rollen und Unternehmen",
+    "present": "Heute",
+    "featuredProjects": "Ausgewählte Projekte",
+    "projectsSubtitle": "Eine Auswahl wichtiger Projekte, die meine technische Expertise und Problemlösungsfähigkeiten zeigen",
+    "getInTouch": "Kontakt aufnehmen",
+    "contactSubtitle": "Bereit für eine Zusammenarbeit an Ihrem nächsten Projekt? Lassen Sie uns in Kontakt treten!"
+  },
+  "skillCategories": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "general": "Allgemein"
+  },
+  "stats": {
+    "yearsExperience": "Jahre Erfahrung",
+    "projectsCompleted": "Projekte abgeschlossen",
+    "languagesFluent": "Sprachen fließend"
+  },
+  "projects": {
+    "role": "Rolle:",
+    "keyAchievements": "Wichtige Erfolge:"
+  },
+  "contact": {
+    "workTogether": "Lassen Sie uns zusammenarbeiten",
+    "workTogetherDescription": "Beschreibung",
+    "email": "E-Mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "connectWithMe": "Mit mir vernetzen",
+    "viewMyCode": "Meinen Code ansehen"
+  }
+}

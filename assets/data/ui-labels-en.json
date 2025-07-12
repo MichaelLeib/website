@@ -1,0 +1,51 @@
+{
+  "navigation": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "getInTouch": "Get In Touch",
+    "viewProjects": "View Projects"
+  },
+  "hero": {
+    "description": "Description"
+  },
+  "sections": {
+    "aboutMe": "About Me",
+    "skillsExpertise": "Skills & Expertise",
+    "skillsSubtitle": "A comprehensive overview of my technical skills and expertise levels",
+    "professionalExperience": "Professional Experience",
+    "experienceSubtitle": "My professional journey through different roles and companies",
+    "present": "Present",
+    "featuredProjects": "Featured Projects",
+    "projectsSubtitle": "A selection of key projects showcasing my technical expertise and problem-solving abilities",
+    "getInTouch": "Get In Touch",
+    "contactSubtitle": "Ready to collaborate on your next project? Let's connect!"
+  },
+  "skillCategories": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "general": "General"
+  },
+  "stats": {
+    "yearsExperience": "Years Experience",
+    "projectsCompleted": "Projects Completed",
+    "languagesFluent": "Languages Fluent"
+  },
+  "projects": {
+    "role": "Role:",
+    "keyAchievements": "Key Achievements:"
+  },
+  "contact": {
+    "workTogether": "Let's Work Together",
+    "workTogetherDescription": "Description",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "connectWithMe": "Connect with me",
+    "viewMyCode": "View my code"
+  }
+}
