@@ -28,6 +28,9 @@
         "category": "backend",
         "years": 2
       },
+      { "name": "Python", "level": 6, "category": "backend", "years": 1 },
+      { "name": "Node.js", "level": 8, "category": "backend", "years": 1 },
+      { "name": "Ruby", "level": 6, "category": "backend", "years": 1 },
       { "name": "SQL", "level": 9, "category": "backend", "years": 6 }
     ],
     "general": [
@@ -41,6 +44,7 @@
       { "name": "Cloud Services", "level": 8, "category": "general" },
       { "name": "Cloud Architektur (XaaS)", "level": 8, "category": "general" },
       { "name": "Git", "level": 9, "category": "general" },
+      { "name": "Docker", "level": 7, "category": "general" },
       { "name": "Software Architektur", "level": 8, "category": "general" },
       { "name": "REST API Design", "level": 9, "category": "general" },
       {
