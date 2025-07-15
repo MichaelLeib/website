@@ -69,9 +69,9 @@ import { UiLabelsService } from "./services/ui-labels.service";
           class="hero"
         >
           <div class="hero-content">
-            <h1 class="hero-title">{{ cvData.personalInfo.name }}</h1>
+            <h1 class="hero-title">{{ cvData?.personalInfo?.name }}</h1>
             <h2 class="hero-subtitle">
-              {{ cvData.personalInfo.title }}
+              {{ cvData?.personalInfo?.title }}
             </h2>
             <p class="hero-description">{{ labels.hero.description }}</p>
             <div class="hero-actions">

@@ -1,6 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { Observable, shareReplay, switchMap } from "rxjs";
+import { Observable, map, shareReplay, switchMap, tap } from "rxjs";
 import { CVData, Experience, Project, Skill } from "../models/cv.model";
 import { Language, LanguageService } from "./language.service";
 
@@ -18,7 +18,9 @@ export class CvDataService {
   private loadCVData(language: Language): Observable<CVData> {
     if (!this.cvDataCache.has(language)) {
       const dataUrl = `assets/data/cv-data-${language}.json`;
+      console.log("Loading data from", dataUrl);
       const data$ = this.http.get<CVData>(dataUrl).pipe(
+        tap((data: CVData) => console.log("Data loaded", data)),
         shareReplay(1) // Cache the result
       );
       this.cvDataCache.set(language, data$);
@@ -35,7 +37,7 @@ export class CvDataService {
   getSkillsByCategory(
     category: "frontend" | "backend" | "general"
   ): Observable<Skill[]> {
-    return this.getCVData().pipe(switchMap((data) => [data.skills[category]]));
+    return this.getCVData().pipe(map((data) => data.skills[category]));
   }
 
   getExperience(): Observable<Experience[]> {

@@ -194,6 +194,7 @@ export class SkillsSectionComponent implements OnInit {
 
     this.cvDataService.getSkillsByCategory("backend").subscribe((skills) => {
       this.backendSkills = skills;
+      console.log("Backend skills", this.backendSkills);
     });
 
     this.cvDataService.getSkillsByCategory("general").subscribe((skills) => {
